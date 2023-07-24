@@ -1,0 +1,13 @@
+.greet > p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1b3061;
+}
+@media only screen and (max-width: 600px) {
+  .greet > p {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+
